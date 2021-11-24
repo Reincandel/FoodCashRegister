@@ -1,0 +1,99 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Food;
+
+/**
+ * declare variables
+ *
+ * @author reinc
+ */
+public class Snack {
+
+    private String name;
+    private String description;
+    private double cost;
+
+    /**
+     * initialize variables
+     *
+     * @param name
+     * @param description
+     * @param cost
+     */
+    public Snack(String name, String description, double cost) {
+        this.name = name;
+        this.description = description;
+        this.cost = cost;
+    }
+
+    /**
+     * get name
+     *
+     * @return
+     */
+    public String getName() {
+        return name;
+    }
+
+    /**
+     * set name
+     *
+     * @param name
+     */
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    /**
+     * get description
+     *
+     * @return
+     */
+    public String getDescription() {
+        return description;
+    }
+
+    /**
+     * set description
+     *
+     * @param description
+     */
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    /**
+     * get the cost
+     *
+     * @return
+     */
+    public double getCost() {
+        return cost;
+    }
+
+    /**
+     * set the cost
+     *
+     * @param cost
+     */
+    public void setCost(double cost) {
+        this.cost = cost;
+    }
+
+    /**
+     * print toString
+     *
+     * @return
+     */
+    @Override
+    public String toString() {
+        return "Snack{"
+                + "name='" + name + '\''
+                + ", description='" + description + '\''
+                + ", cost=" + cost
+                + '}';
+    }
+}
