@@ -1,0 +1,165 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Food;
+
+/**
+ * declare variables
+ *
+ * @author reinc
+ */
+public class Drink {
+
+    private String name;
+    private String size;
+    private double ounces;
+    private boolean addedCream;
+    private String addedFlavor;
+    private double cost;
+
+    /**
+     * initialize variables
+     *
+     * @param name
+     * @param size
+     * @param ounces
+     * @param addedCream
+     * @param addedFlavor
+     * @param cost
+     */
+    public Drink(String name, String size, double ounces, boolean addedCream, String addedFlavor, double cost) {
+        this.name = name;
+        this.size = size;
+        this.ounces = ounces;
+        this.addedCream = addedCream;
+        this.addedFlavor = addedFlavor;
+        this.cost = cost;
+    }
+
+    /**
+     * get name
+     *
+     * @return
+     */
+    public String getName() {
+        return name;
+    }
+
+    /**
+     * set the name
+     *
+     * @param name
+     */
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    /**
+     * get the size
+     *
+     * @return
+     */
+    public String getSize() {
+        return size;
+    }
+
+    /**
+     * set the size
+     *
+     * @param size
+     */
+    public void setSize(String size) {
+        this.size = size;
+    }
+
+    /**
+     * get the ounces
+     *
+     * @return
+     */
+    public double getOunces() {
+        return ounces;
+    }
+
+    /**
+     * set ounces
+     *
+     * @param ounces
+     */
+    public void setOunces(double ounces) {
+        this.ounces = ounces;
+    }
+
+    /**
+     * get cream
+     *
+     * @return
+     */
+    public boolean getAddedCream() {
+        return addedCream;
+    }
+
+    /**
+     * set cream
+     *
+     * @param addedCream
+     */
+    public void setAddedCream(boolean addedCream) {
+        this.addedCream = addedCream;
+    }
+
+    /**
+     * get flavor
+     *
+     * @return
+     */
+    public String getAddedFlavor() {
+        return addedFlavor;
+    }
+
+    /**
+     * set flavor
+     *
+     * @param addedFlavor
+     */
+    public void setAddedFlavor(String addedFlavor) {
+        this.addedFlavor = addedFlavor;
+    }
+
+    /**
+     * get cost
+     *
+     * @return
+     */
+    public double getCost() {
+        return cost;
+    }
+
+    /**
+     * set cost
+     *
+     * @param cost
+     */
+    public void setCost(double cost) {
+        this.cost = cost;
+    }
+
+    /**
+     * print toString
+     *
+     * @return
+     */
+    @Override
+    public String toString() {
+        return "Drink{"
+                + "name='" + name + '\''
+                + ", size='" + size + '\''
+                + ", ounces=" + ounces
+                + ", addedCream=" + addedCream
+                + ", addedFlavor='" + addedFlavor + '\''
+                + ", cost=" + cost
+                + '}';
+    }
+}
